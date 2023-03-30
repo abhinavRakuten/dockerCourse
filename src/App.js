@@ -4,7 +4,17 @@ import "./App.css";
 function App() {
   return (
     <div className="App">
-      <p>Hi there, this code is coming from feature branch</p>
+      <header className="App-header">
+        <p>Hi there, this is coming from feature branch</p>
+        <a
+          className="App-link"
+          href="https://reactjs.org"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Learn React
+        </a>
+      </header>
     </div>
   );
 }
